@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iván Yovera</title>
+    <link rel="icon" type="image/png" href="./images/logoo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!--style>
+      header{
+        background:green;
+      }
+    </style-->
+  </head>
+  <body>
+    <!--header style="color:red; background:blue;" //"estilo in line": esta es otra manera de añadir estilos a un segmento -->
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <img src="./images/logo2.png" height="50" alt="Logo de http://leonidasesteban.com">
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a class="selectorClass" href="#eventos">Experiencia</a>
+            </li>
+            <li>
+              <a id="selectorID" href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1>
+          Hola! Soy <strong>Iván Yovera</strong> <br>
+          Desarrollador <strong>Frontend</strong> con <br>
+          pasión por el aprendizaje
+        </h1>
+        <img class="hero-image" src="./images/hero5.jpg" alt="imagen de portada">
+      </div>
+    </section>
+    <section class="portafolio">
+      <div class="container">
+        <h2>Portafolio (proyectos realizados)</h2>
+        <section id="eventos" class="event-list">
+          <div class="container">
+            <article class="event">
+              <figure class="event-imageContainer">
+                <img class="event-image" src="./images/brand.png" alt="foto de platziconf">
+              </figure>
+              <div class="event-detail">
+                <h3 class="event-title">Brand</h3>
+                <p class="event-description">Producto digital con botón de pago enlazado a Paypal para realizar el proceso de pago de los productos ofrecidos. La creación de este proyecto conlleva desde los primeros pasos creando el paper wireframe, hasta la maquetación final.</p>
+                <a class="event-url" href="./portafolio/proyecto1/index.html" target="_blank">Ver Proyecto</a>
+              </div>
+            </article>
+            <article class="event">
+              <figure class="event-imageContainer">
+                <img class="event-image" src="./images/google_clone.png" alt="foto de platziconf">
+              </figure>
+              <div class="event-detail">
+                <h3 class="event-title">Google Clone</h3>
+                <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En éste evento se comparto como tener una vida de constante aprendizaje</p>
+                <a class="event-url" href="./portafolio/proyecto2/index.html" target="_blank">Ver Proyecto</a>
+              </div>
+            </article>
+            <article class="event">
+              <figure class="event-imageContainer">
+                <img class="event-image" src="./images/Proyecto-frontend-developer.gif" alt="foto de platziconf">
+              </figure>
+              <div class="event-detail">
+                <h3 class="event-title">Platzi Video</h3>
+                <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En éste evento se comparto como tener una vida de constante aprendizaje</p>
+                <a class="event-url" href="./portafolio/proyecto3/index.html" target="_blank">Ver Proyecto</a>
+              </div>
+            </article>
+            <article class="event">
+              <figure class="event-imageContainer">
+                <img class="event-image" src="./images/platzi_conf.png" alt="foto de platziconf">
+              </figure>
+              <div class="event-detail">
+                <h3 class="event-title">Platzi Conf Hawaii</h3>
+                <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En éste evento se comparto como tener una vida de constante aprendizaje</p>
+                <a class="event-url" href="./portafolio/proyecto4/index.html" target="_blank">Ver Proyecto</a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="container">
+        <form class="form-email" action="/suscripcion/">
+          <h3>
+            <label for="email">
+              ¿Creamos algo juntos?, Déjame tu email
+            </label>
+          </h3>
+          <input type="text" value="@gmail.com" id="email">
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/leonidasesteban" class="social-link twitter"></a>
+          <a href="https://fb.com/leonidas.esteban" class="social-link facebook"></a>
+          <a href="https://github.com/leonidasesteban" class="social-link github"></a>
+          <a href="https://instagram.com/leonidasesteban" class="social-link instagram"></a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>Curso de Desarrollo Web Online 2018 <img src="./images/platzi.png" width="80" alt="platzi"></p>
+        </div>
+        <div>
+          designed with <\3 by <a href="https://twitter.com/thespianartist">@thespianartist</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  </html>
