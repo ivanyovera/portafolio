@@ -1,5 +1,5 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin: 0px;
 }
 
@@ -7,8 +7,13 @@ figure {
   margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Fjalla One', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
   font-weight: normal;
   /* font-style: italic; */
 }
@@ -17,7 +22,7 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
   font-size: 40px;
   line-height: 1.5;
-  letter-spacing: -.2px;
+  letter-spacing: -0.2px;
   color: white;
   margin: 0;
   /* text-transform: uppercase; */
@@ -26,13 +31,22 @@ h1 {
 }
 
 h1 strong {
-  color: #026FFF;
+  color: #026fff;
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  color: white;
+  margin: 0;
+  text-align: left;
 }
 
 h2 {
-  color: #026FFF;
+  color: #026fff;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 40px;
@@ -53,7 +67,7 @@ h2 {
 }
 
 .portafolio {
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 20px;
 }
 
@@ -80,7 +94,7 @@ h2 {
 }
 
 .project strong {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
 }
 
 .project-title {
@@ -144,7 +158,7 @@ ul {
 
 .footer {
   color: white;
-  background-color: #1D252C;
+  background-color: #1d252c;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -174,7 +188,7 @@ ul {
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
-  background: #F4FBFF;
+  background: #f4fbff;
 }
 
 .event img {
@@ -198,7 +212,7 @@ ul {
 }
 
 .event-url {
-  color: #026FFF;
+  color: #026fff;
   border: 1px solid;
   padding: 5px 20px;
   text-decoration: none;
@@ -206,7 +220,7 @@ ul {
 }
 
 .contact {
-  background-color: #056FFF;
+  background-color: #056fff;
   color: white;
   height: 150px;
   display: flex;
@@ -224,19 +238,19 @@ ul {
 }
 
 .social-link.twitter {
-  background-image: url('../images/twitter.svg');
+  background-image: url("../images/twitter.svg");
 }
 
 .social-link.facebook {
-  background-image: url('../images/facebook.svg');
+  background-image: url("../images/facebook.svg");
 }
 
 .social-link.github {
-  background-image: url('../images/github.svg');
+  background-image: url("../images/github.svg");
 }
 
 .social-link.instagram {
-  background-image: url('../images/instagram.svg');
+  background-image: url("../images/instagram.svg");
 }
 
 .form-email input {
@@ -244,7 +258,7 @@ ul {
   border-style: solid;
   border-radius: 5px;
   padding: 10px 20px 10px 25px;
-  background-image: url('../images/envelope.svg');
+  background-image: url("../images/envelope.svg");
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -262,7 +276,7 @@ ul {
 }
 
 .form-email h3 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin: 10px 0;
 }
 
@@ -278,11 +292,8 @@ ul {
   flex-wrap: inherit;
 }
 
-
 /* COMIENZO DE RESPONSIVE */
 /* desktop first: usaremos primero los media queris mas grandes */
-
-
 
 @media screen and (max-width: 1023px) {
   .event-list-title {
@@ -303,7 +314,7 @@ ul {
   .hero-image {
     position: absolute;
     z-index: 1;
-    left:50%;
+    left: 50%;
     right: 0;
     top: 0;
     bottom: 0;
@@ -321,7 +332,7 @@ ul {
 @media screen and (max-width: 767px) {
   h2 {
     font-size: 1.2em;
-    margin: .5em 0;
+    margin: 0.5em 0;
   }
   .burger-button {
     display: block;
@@ -341,7 +352,7 @@ ul {
     height: 40px;
     font-size: 2em;
     text-decoration: underline;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   .header .logo {
     text-align: center;
@@ -349,7 +360,7 @@ ul {
 
   .menu {
     position: fixed;
-    background: rgba(5, 111, 255, .9);
+    background: rgba(5, 111, 255, 0.9);
     z-index: 3;
     top: 0;
     left: -100vw;
@@ -359,7 +370,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .3s;
+    transition: 0.3s;
   }
   .menu.is-active {
     left: 0;
@@ -376,25 +387,26 @@ ul {
     width: auto;
     /* font-size: 10px; */
   }
-  .project-course, .project-date, .project-url { 
-    margin: .3em 0;
+  .project-course,
+  .project-date,
+  .project-url {
+    margin: 0.3em 0;
   }
   .project-title {
     font-size: 1.5em;
-    margin-bottom: .3em;
+    margin-bottom: 0.3em;
   }
   .project-url {
     font-size: 1em;
   }
   .project-course {
-    font-size: .7em;
+    font-size: 0.7em;
   }
   .project-date {
     font-size: 1em;
   }
   .project-description {
     font-size: 1em;
-
   }
 
   .event {
@@ -417,7 +429,7 @@ ul {
 
   .event-detail {
     /* 1em = 16px */
-    margin: -2em .5em .5em;
+    margin: -2em 0.5em 0.5em;
     padding: 1em;
   }
 
@@ -454,4 +466,3 @@ ul {
     padding: 2em 1em;
   }
 }
-
